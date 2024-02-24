@@ -87,5 +87,9 @@ class TV:
     @classmethod
     def getNumTV(cls) -> int:
         return cls.__numTV
+    
+    @classmethod
+    def setNumTV(cls, num : int) -> None:
+        cls.__numTV = num
 
     pass
