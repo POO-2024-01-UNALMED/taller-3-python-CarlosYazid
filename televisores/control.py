@@ -45,3 +45,5 @@ class Control:
         self.__tv = tv
 
     pass
+
+# Anti - copy: Carlos Yazid Padilla
