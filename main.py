@@ -1,7 +1,22 @@
+
 from televisores.tv import TV
 from televisores.marca import Marca
 from televisores.control import Control
 
+"""
+    Taller 3 Python
+
+    Realizado el 23 de febrero del 2024
+    Desarrollado por Carlos Yazid Padilla
+    Topico: Encapsulamiento y Constructores
+
+    Dependencias: 
+    
+        - Televisores > Tv
+        - Televisores > Marca
+        - Televisores > Control
+    
+"""
 if __name__ == "__main__":
     marca1 = Marca("Semsung")
     marca2 = Marca("Lj")
@@ -26,3 +41,5 @@ if __name__ == "__main__":
     print(tv1.getPrecio())
     print(tv1.getMarca().getNombre())
     print(tv1.getCanal())
+
+# Anti-Copy: Carlos Padilla
